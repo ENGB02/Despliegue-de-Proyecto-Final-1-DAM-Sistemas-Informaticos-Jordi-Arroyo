@@ -10,6 +10,8 @@ _Alumnos implicados :Jordi Arroyo Pons_
 
 _Fecha : 10/06/2022_
 
+## link a la imagen de DockerHub :
+
 
 ## Indice 
 
