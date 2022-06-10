@@ -26,7 +26,7 @@ _A continuación explicaremos una breve introducción a como configurar el archi
 
 Para comenzar debemos instalar Docker
 
-_luego deberemos ver si el compose ya está instalado en la imagen o debemos instalarlo , si al ejecutar el comando : 
+luego deberemos ver si el compose ya está instalado en la imagen o debemos instalarlo , si al ejecutar el comando : 
 -‘docker-compose up’ este se levanta es porque están correctamente instalado,
 si no deberemos instalarlo con el comando desde la ubicación : usr/local/bin :
 - sudo php composer-setup. php --install-dir= /usr/local/bin --filename= composer
@@ -35,11 +35,11 @@ Después de esto Runeamos
 
 Deberemos editar este archivo como esta en el capítulo 2 , es decir , su configuración se debe basar en los 3 servidores _
 
-![Image text](https://github.com/ENGB02/Despliegue-de-Proyecto-Final-1-DAM-Sistemas-Informaticos-Jordi-Arroyo/blob/main/img/estructura%20del%20trabajo%20en%20si.PNG) estructurs 
+![Image text](https://github.com/ENGB02/Despliegue-de-Proyecto-Final-1-DAM-Sistemas-Informaticos-Jordi-Arroyo/blob/main/img/estructura%20del%20trabajo%20en%20si.PNG) 
 
 Al runear se nos creará la siguiente estructura :
 
-![Image text](https://github.com/ENGB02/Despliegue-de-Proyecto-Final-1-DAM-Sistemas-Informaticos-Jordi-Arroyo/blob/main/img/estructura%20al%20runear%20el%20yaml.PNG) estructurs 
+![Image text](https://github.com/ENGB02/Despliegue-de-Proyecto-Final-1-DAM-Sistemas-Informaticos-Jordi-Arroyo/blob/main/img/estructura%20al%20runear%20el%20yaml.PNG) 
 
 Estructura al runear el .yml con el .war , estará compuesto por por la estructura de estos y el repositorio (trabajo introducido en el .war)
 Iniciamos el Run de todos estos contenedores y accedemos a sus respectivos host , es decir hacer un conjunto de contenedores para realizar este Login compuesto de PHP , TOMCAT y MYSQL así haciendo su correcto funcionamiento.
